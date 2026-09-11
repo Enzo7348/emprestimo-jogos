@@ -1,4 +1,4 @@
-package br.ufms.emprestimojogos.model;
+package br.ufms.emprestimojogos.domain.model;
 
 public enum Status {
     ATIVO ( "Ativo"),

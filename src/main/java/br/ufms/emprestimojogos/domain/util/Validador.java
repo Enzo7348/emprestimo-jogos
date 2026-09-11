@@ -1,4 +1,4 @@
-package br.ufms.util;
+package br.ufms.emprestimojogos.domain.util;
 
 public class Validador {
     // validador nome

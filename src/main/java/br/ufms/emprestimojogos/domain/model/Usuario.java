@@ -1,6 +1,6 @@
-package br.ufms.emprestimojogos.model;
+package br.ufms.emprestimojogos.domain.model;
 
-import br.ufms.util.Validador;
+import br.ufms.emprestimojogos.domain.util.Validador;
 
 import java.time.LocalDate;
 import java.util.UUID;
@@ -10,7 +10,7 @@ public class Usuario {
     private String email;
     private String telefone;
     private String senha;
-    private UUID id;
+    private final UUID id;
     private LocalDate dataNascimento;
     private LocalDate dataCadastro;
     private Status status;
